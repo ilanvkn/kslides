@@ -1,6 +1,6 @@
 # Sample artwork provenance
 
-Generated on 9 October 2026 using Codex's built-in image generation tool. These are new KSlides sample assets; no VKN model/catalog assets or third-party brand artwork were copied. Native KSlides icon geometry was authored separately in `scripts/icon.swift`.
+Generated on 9 October 2026 using Codex's built-in image generation tool. These are new KSlides sample assets; no third-party catalogue assets or brand artwork were copied. Native KSlides icon geometry was authored separately in `scripts/icon.swift`.
 
 ## park-world.png
 
