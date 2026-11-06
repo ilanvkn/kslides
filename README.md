@@ -1,5 +1,8 @@
 # KSlides
 
+[![Build and domain checks](https://github.com/ilanvkn/kslides/actions/workflows/check.yml/badge.svg?branch=main)](https://github.com/ilanvkn/kslides/actions/workflows/check.yml)
+[MIT license](LICENSE) · [Build](#build-and-run) · [Connect an agent](#connect-an-agent) · [Feedback](https://github.com/ilanvkn/kslides/issues)
+
 A native macOS lesson studio with editable slides, teacher notes, classroom presentation, PowerPoint/PDF/PNG export and a local MCP bridge. An optional Blender worker produces bounded geometry scenes from structured parameters. Original source is MIT licensed; sample illustrations are AI-generated and documented in [ARTWORK](Resources/ARTWORK.md).
 
 This first community snapshot is version0.4.0. It is development source, not a notarized installer or a complete accessibility certification.
@@ -37,3 +40,5 @@ For geometry rendering, install Blender separately at /Applications/Blender.app.
 The isolated community copy passed ten domain/geometry/tool-contract/ZIP checks and a release app build on the maintainer Mac. CI repeats those checks and builds the app on macOS. The test executable uses its own assertions; this is not an XCTest UI suite. Live UI, assistive technology, export fidelity and optional Blender integration still require independent reproduction on this exact public copy.
 
 Open Issues for reproducible bugs and pull requests for focused changes. Describe expected behavior, platform/tool versions and synthetic reproduction steps. Do not include saved lesson libraries, learner information, local tokens, generated private artwork or raw connection files. Preserve source/license notices. No automatic updater, analytics or hosted model is included.
+
+Related projects: [Android Atlas](https://github.com/ilanvkn/av3x-antartica), [engineering plugins](https://github.com/ilanvkn/codex-engineering-plugins) and [Maze Malaysia Way](https://github.com/ilanvkn/maze-malaysia-way). Each has its own scope, data requirements and verification record.
