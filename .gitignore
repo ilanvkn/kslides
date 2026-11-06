@@ -1,0 +1,8 @@
+.build/
+.swiftpm/
+dist/
+.DS_Store
+__pycache__/
+*.pyc
+connection.json
+library.json
